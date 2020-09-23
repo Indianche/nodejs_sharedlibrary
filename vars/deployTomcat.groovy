@@ -1,5 +1,5 @@
 def call(Map file) {
  
- sh "sudo cp ${ file.war } /usr/share/tomcat/webapps"
+ sh "sudo cp target/java-tomcat-maven-example.war /usr/share/tomcat/webapps"
 
   }
