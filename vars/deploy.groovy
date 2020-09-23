@@ -1,4 +1,4 @@
-def call(String path) {
+def call(Map var) {
  
-    sh "sudo cp path /usr/share/tomcat/webapps"
+    sh "sudo cp var.path /usr/share/tomcat/webapps"
   }
